@@ -15,6 +15,7 @@
 		5D432F961ECE63860098F123 /* SelfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D432F951ECE63860098F123 /* SelfigramTests.swift */; };
 		5D432FA11ECE63860098F123 /* SelfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D432FA01ECE63860098F123 /* SelfigramUITests.swift */; };
 		5D432FAF1ECE6DDB0098F123 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D432FAE1ECE6DDB0098F123 /* Default-568h@2x.png */; };
+		5DEBA4AE1ED4FB7300408BA7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBA4AD1ED4FB7300408BA7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5D432FA01ECE63860098F123 /* SelfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfigramUITests.swift; sourceTree = "<group>"; };
 		5D432FA21ECE63860098F123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D432FAE1ECE6DDB0098F123 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5DEBA4AD1ED4FB7300408BA7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5D432F801ECE63860098F123 /* AppDelegate.swift */,
 				5D432F821ECE63860098F123 /* ViewController.swift */,
 				5D432F841ECE63860098F123 /* Main.storyboard */,
+				5DEBA4AD1ED4FB7300408BA7 /* ProfileViewController.swift */,
 				5D432F871ECE63860098F123 /* Assets.xcassets */,
 				5D432F891ECE63860098F123 /* LaunchScreen.storyboard */,
 				5D432F8C1ECE63860098F123 /* Info.plist */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DEBA4AE1ED4FB7300408BA7 /* ProfileViewController.swift in Sources */,
 				5D432F831ECE63860098F123 /* ViewController.swift in Sources */,
 				5D432F811ECE63860098F123 /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 		5D432FA61ECE63870098F123 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Selfigram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sellers.test.Selfigram;
@@ -426,6 +431,7 @@
 		5D432FA71ECE63870098F123 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Selfigram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sellers.test.Selfigram;
@@ -507,6 +513,7 @@
 				5D432FA71ECE63870098F123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D432FA81ECE63870098F123 /* Build configuration list for PBXNativeTarget "SelfigramTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				5D432FAA1ECE63870098F123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D432FAB1ECE63870098F123 /* Build configuration list for PBXNativeTarget "SelfigramUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				5D432FAD1ECE63870098F123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
