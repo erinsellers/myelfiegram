@@ -62,7 +62,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="camera"/>
                                 <connections>
-                                    <action selector="cameraButtonPressed:" destination="m8U-Ma-6e0" eventType="touchUpInside" id="0O2-YA-Suv"/>
+                                    <action selector="cameraButtonPressedWithSender:" destination="m8U-Ma-6e0" eventType="touchUpInside" id="lzx-1g-LfY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlK-qb-TvM">
