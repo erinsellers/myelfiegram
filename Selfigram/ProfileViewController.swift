@@ -39,7 +39,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
         } else {
             // 4. We check if we are running on an iPhone or iPad (ie: not a simulator)
             //    If so, we open up the pickerController's Camera (Front Camera, for selfies!)
-            pickerController.sourceType = .camera
+        pickerController.sourceType = .camera
             pickerController.cameraDevice = .front
             pickerController.cameraCaptureMode = .photo
         }

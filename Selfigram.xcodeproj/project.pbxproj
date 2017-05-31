@@ -17,6 +17,7 @@
 		5D432FAF1ECE6DDB0098F123 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D432FAE1ECE6DDB0098F123 /* Default-568h@2x.png */; };
 		5D9772BE1ED7B27700A0A48E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9772BD1ED7B27700A0A48E /* User.swift */; };
 		5D9772C01ED7B32800A0A48E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9772BF1ED7B32800A0A48E /* Post.swift */; };
+		5D9772C21EDE3D1200A0A48E /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9772C11EDE3D1200A0A48E /* FeedTableViewController.swift */; };
 		5DEBA4AE1ED4FB7300408BA7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEBA4AD1ED4FB7300408BA7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		5D432FAE1ECE6DDB0098F123 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5D9772BD1ED7B27700A0A48E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5D9772BF1ED7B32800A0A48E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5D9772C11EDE3D1200A0A48E /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		5DEBA4AD1ED4FB7300408BA7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				5D432F801ECE63860098F123 /* AppDelegate.swift */,
 				5D432F821ECE63860098F123 /* ViewController.swift */,
 				5D432F841ECE63860098F123 /* Main.storyboard */,
+				5D9772C11EDE3D1200A0A48E /* FeedTableViewController.swift */,
 				5D9772BD1ED7B27700A0A48E /* User.swift */,
 				5D9772BF1ED7B32800A0A48E /* Post.swift */,
 				5DEBA4AD1ED4FB7300408BA7 /* ProfileViewController.swift */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D9772BE1ED7B27700A0A48E /* User.swift in Sources */,
+				5D9772C21EDE3D1200A0A48E /* FeedTableViewController.swift in Sources */,
 				5DEBA4AE1ED4FB7300408BA7 /* ProfileViewController.swift in Sources */,
 				5D432F831ECE63860098F123 /* ViewController.swift in Sources */,
 				5D432F811ECE63860098F123 /* AppDelegate.swift in Sources */,
